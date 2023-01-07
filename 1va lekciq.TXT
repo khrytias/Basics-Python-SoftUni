@@ -1,0 +1,61 @@
+1
+print('Hello SoftUni')
+
+2
+print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+
+3
+a = int(input())
+b = int(input())
+area = a * b
+print(area)
+
+4
+a = float(input())
+b = 2.54
+c = a * b
+print(c)
+
+5
+name = input()
+print('Hello, ' + name + '!')
+
+6
+first_name = input()
+last_name = input()
+age = int(input())
+town = input()
+print(f'You are {first_name} {last_name}, a {age}-years old person from {town}.')
+
+7
+name = input()
+projects_count = int(input())
+time_for_project = projects_count * 3
+print(f'The architect {name} will need {time_for_project} hours to complete {projects_count} projects.')
+
+8
+dog_food_count = int(input())
+cat_food_count = int(input())
+dog_food_price = 2.50
+cat_food_price = 4
+final_price = (dog_food_count * dog_food_price) + (cat_food_count * cat_food_price)
+print(f'{final_price} lv.')
+
+
+9
+green = float(input())
+one_meter_price = 7.61
+price = green * one_meter_price
+discount = 0.18 * price
+final_price = price - discount
+print(f'The final price is: {final_price} lv.')
+print(f'The discount is: {discount} lv.')
